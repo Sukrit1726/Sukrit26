@@ -1,15 +1,18 @@
-on:
-  push:
-
+name: Actions
+on: push
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout node
         uses: actions/checkout@v4
-
-      - name: List files
-        run: ls
+      # - name: list file
+      #   run: ls
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Check node version
+        run: node -v
       # actions are resualble piece of code by github to perfrom commo tasks like clone repo set up nodes 
               
