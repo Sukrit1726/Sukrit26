@@ -2,7 +2,7 @@
   "name": "gitaction",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000S\u0000u\u0000k\u0000r\u0000i\u0000t\u00002\u00006\u0000\r\u0000 \u0000",
-  "main": "server.js",
+  "main": "index.js",
   "dependencies": {
     "accepts": "^2.0.0",
     "acorn": "^8.16.0",
@@ -121,6 +121,7 @@
     "wrappy": "^1.0.2",
     "yocto-queue": "^0.1.0"
   },
+  "devDependencies": {},
   "scripts": {
     "lint": "eslint .",
     "test": "echo \"Test successful\" ",
@@ -134,7 +135,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type":"module",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Sukrit1726/Sukrit26/issues"
   },
